@@ -1,5 +1,6 @@
 
 **NOTE**
+
 How to create the patch when some commit need to delete and the modification saved at the same time
 
 ```
