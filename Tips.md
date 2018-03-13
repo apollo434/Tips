@@ -1,7 +1,8 @@
 
+**NOTE**
+How to create the patch when some commit need to delete and the modification saved at the same time
+
 ```
-
-
 375  git diff HEAD^^^..HEAD --stat
 376  git diff HEAD^^^..HEAD -p
 377  git diff HEAD^^^..HEAD > patch.diff
