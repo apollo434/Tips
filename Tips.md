@@ -24,3 +24,35 @@ How to create the patch when some commit need to delete and the modification sav
 392  history
 
 ```
+
+How to creat remote repertory
+
+```
+$ git checkout -b local-branch commit-id
+
+push to remote:
+
+$ git push local-branch:remote-branch
+
+To delete the remote branch if needed:
+
+$ git push :remote-branch
+```
+
+how to creat personal local git branch
+
+```
+1. Update the personal local git branch
+
+#git fetch
+
+2. Create the local branch
+
+#git checkout -b XXX-WRL8.0 origin/WRL8.0
+
+3. Make changes
+
+4. Push local branch to remote
+
+#git push origin XXX-WRL8.0:XXX-WRL8.0
+```
