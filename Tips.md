@@ -56,3 +56,12 @@ how to creat personal local git branch
 
 #git push origin XXX-WRL8.0:XXX-WRL8.0
 ```
+How to use Simics
+
+```
+1. Install Simics structure directory: ~/lx2160/
+2. Install the Simics directory: ~/lx2160/simics-5/
+
+```
+
+
