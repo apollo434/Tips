@@ -94,7 +94,7 @@ Note: <your simics project>/daybreak-csm
 
 How to change/set u-boot/kernel images?
 ```
-Right click "lx2-wrl9.simics" on Simics -> Run as -> Run Configrations... -> 
+Right click "lx2-wrl9.simics" on Simics -> Run as -> Run Configrations... ->
  Script: targets/lx2160.wrl9/lx2-wrl9.simics -> Click "Parameters..."
  Click "Runtime" and set these name and "Browse.." and set your images
   uboot_image:
@@ -115,7 +115,7 @@ run-command-file "/opt/wrs/simics/5.0/WindRiver.internal/simics-5/simics-5.0.139
 
 You can edit "kernel_cmdline" line.
  Or
-Right click "lx2-wrl9.simics" on Simics -> Run as -> Run Configrations... -> 
+Right click "lx2-wrl9.simics" on Simics -> Run as -> Run Configrations... ->
  Script: targets/lx2160.wrl9/lx2-wrl9.simics -> Click "Parameters..."
  Select "kernel_cmdline" and input paramers
 ---
@@ -136,4 +136,9 @@ file list:
 
 ```
 
-
+***Perf command***
+```
+perf record --pid= -g -o /tmp/perf.data
+perf report -i /tmp/perf-data > perf.txt
+vi perf.txt
+```
