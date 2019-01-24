@@ -138,7 +138,10 @@ file list:
 
 ***Perf command***
 ```
-perf record --pid= -g -o /tmp/perf.data
-perf report -i /tmp/perf-data > perf.txt
+perf record -a -g -o /tmp/perf.data
+perf report -i /tmp/perf.data > perf.txt
 vi perf.txt
+set nowrap
+Shift + 4 ====> end of raw
+Shift + 0 ====> begin of raw
 ```
