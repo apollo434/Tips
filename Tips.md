@@ -145,3 +145,10 @@ set nowrap
 Shift + 4 ====> end of raw
 Shift + 0 ====> begin of raw
 ```
+
+***ASLR***
+```
+# cat /proc/sys/kernel/randomize_va_space
+
+If the output is 1 or 2, the ASLR is enabled.
+```
